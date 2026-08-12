@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img src="https://th.bing.com/th/id/OIP.XPIjDpS0KJvETxi7EaWBWQHaHa?w=209&h=208&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="Logo" style="width: 50px; border-radius: 100%;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="books_i_have_read.html">Books i have read</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">5 star reads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html" style="margin-left: 35vw;">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="sign-up.html" class="nav-link">Signup</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel -->
+  <div class="container-fluid">
+  <div class="row pt-4 mt-5">
+    <div class="col-7">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+          <!-- the slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://img.freepik.com/premium-photo/vector-bookshelf-illustration-modern-wall-art_899449-3705.jpg" alt="bookshelf" class="d-black" style="height: 80vh; width: 100%;">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/0a/22/d1/0a22d12dfc35bac177746ca95d99478d.jpg" alt="shatter me series" class="d-block" style="height: 80vh; width: 100%;">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/originals/fc/d3/f6/fcd3f680543756b0347de30adedf69b6.jpg" alt="twisted series" style="height: 80vh; width: 100%;" class="d-block">
+            </div>
+        </div>
+
+        <!-- left and right carousels/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-5">
+      <h1 class="color-danger text-danger text-center">Books</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nisi eveniet doloribus temporibus, libero molestias eligendi, laboriosam fuga esse quas sit cumque aliquid aspernatur ullam consequatur, velit sapiente animi. Magnam?</p>
+      <button class="btn btn-success">Shatter me series</button>
+      <button class="btn btn-success">Twisted series</button>
+    </div>  
+  </div>
+  </div>
+  <!-- card -->
+   <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top" src="https://down-my.img.susercontent.com/file/my-11134207-7r98r-lpgerbredb4g9a" alt="skin of a sinner book" style="width: 100%; height: 50vh;">
+          <div class="card-body">
+            <h4 class="card-title">Skin of a Sinner</h4>
+            <p>This is a book by Avina St. Graves. It is a dark romance book. The image above shows the different tropes in book.</p>
+            <a href="#" class="btn btn-success">More Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top" src="https://i.pinimg.com/236x/45/d5/17/45d51742c183eff72efd6fb87735e501.jpg" alt="never lie book" style="width: 100%; height: 50vh;">
+          <div class="card-body">
+            <h4 class="card-title">Never Lie</h4>
+            <p>This is a book by Frieda McFadden. It is a thriller book with murder. The image above shows the different tropes in book.</p>
+            <a href="#" class="btn btn-success">More Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top" src="https://th.bing.com/th/id/OIP.2X8vgiPuip5M7qEBSMghdAHaJQ?w=156&h=185&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Things we nver got over book" style="width: 100%; height: 50vh;">
+          <div class="card-body">
+            <h4 class="card-title">Things we never got over</h4>
+            <p>This is a book by Lucy Score. It is a small town romance book. The image above shows the different tropes in book.</p>
+            <a href="#" class="btn btn-success">More Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-1"></div>
+          <div class="col-5 text-center">
+            <h3>Off Campus Series</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex culpa pariatur sed recusandae maxime, doloribus ea nostrum praesentium hic. Exercitationem reprehenderit sit maiores amet esse, nihil laudantium vitae quidem corporis.</p>
+            <button class="btn btn-success">Off Campus Series</button>
+          </div>
+
+          <div class="col-5">
+            <img src="https://m.media-amazon.com/images/I/71bdBLy1pML._SY250_.jpg" alt="King of Sin series" style="width: 100%; height: 60vh; border-radius: 100px">
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0 bg-dark text-white mt-5">
+        <div>
+          <p class="text-center">This is a cute little webpage of my favourite thing i.e books.</p>
+          <p class="text-center">By- Bhumika</p>
+        </div>
+      </div>
+
+    </div>
+   </div>
+</body>
+</html>
